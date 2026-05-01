@@ -195,7 +195,6 @@ If you use this code or data in your work, please cite:
   title   = {Predicting Insulin Resistance from Free-Living Continuous Glucose
              Monitoring and Smartwatch Data: A Multisite External Validation Study},
   author  = {[Authors]},
-  journal = {npj Digital Medicine},
   year    = {[Year]},
   doi     = {[DOI]}
 }
