@@ -149,7 +149,7 @@ Three random forest classifiers are trained on Study 1 (70/30 stratified split) 
 | **Baseline Model** | BMI, age, WHR | 3 |
 
 
-### TBD not final! 
+### TBD not final!  (we may change: mtry set to floor(√p) per model for the main one TBD)
 **Fixed hyperparameters:** `ntree = 300`, `mtry = 1`, `max_depth = 5`. Class imbalance addressed by random upsampling of the minority class within each training fold. Missing values imputed by median, with imputation parameters estimated on training data only.
 
 ---
