@@ -1,0 +1,7 @@
+Model,Dataset,Accuracy,Accuracy_lo,Accuracy_hi,Sensitivity,Sensitivity_lo,Sensitivity_hi,Specificity,Specificity_lo,Specificity_hi,Balanced_Accuracy,BalAcc_lo,BalAcc_hi,Precision,Precision_lo,Precision_hi,F1,F1_lo,F1_hi,AUC_ROC,AUC_lo,AUC_hi,AUC_CI_method,AUC_PR,PRAUC_lo,PRAUC_hi
+CGM Model,Internal Holdout,0.8,0.633,0.933,0.6,0.286,0.9,0.9,0.739,1.0,0.75,0.579,0.921,0.75,0.4,1.0,0.667,0.364,0.889,0.79,0.603,0.977,DeLong,0.771,0.521,0.953
+CGM Model,External Validation,0.82,0.721,0.902,0.842,0.65,1.0,0.81,0.683,0.925,0.826,0.715,0.924,0.667,0.478,0.85,0.744,0.581,0.875,0.895,0.795,0.995,DeLong,0.845,0.678,0.968
+Smartwatch Model,Internal Holdout,0.767,0.6,0.9,0.7,0.375,1.0,0.8,0.611,0.952,0.75,0.574,0.909,0.636,0.333,0.909,0.667,0.375,0.87,0.86,0.701,1.0,DeLong,0.802,0.543,0.967
+Smartwatch Model,External Validation,0.787,0.672,0.885,0.842,0.667,1.0,0.762,0.63,0.882,0.802,0.692,0.899,0.615,0.423,0.8,0.711,0.537,0.84,0.841,0.721,0.96,DeLong,0.713,0.514,0.888
+Baseline Model,Internal Holdout,0.733,0.567,0.867,0.7,0.375,1.0,0.75,0.541,0.92,0.725,0.542,0.891,0.583,0.286,0.846,0.636,0.353,0.833,0.825,0.651,0.999,DeLong,0.748,0.481,0.933
+Baseline Model,External Validation,0.705,0.59,0.82,0.789,0.583,0.952,0.667,0.526,0.805,0.728,0.607,0.836,0.517,0.344,0.7,0.625,0.452,0.772,0.738,0.595,0.882,DeLong,0.577,0.373,0.793
